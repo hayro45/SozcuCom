@@ -1,0 +1,65 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE and Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Browser Extensions
+*.crx
+*.xpi
+extensions/*.crx
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Selenium / WebDriver
+chromedriver*
+geckodriver*
+*.exe
+
+# Scraped data (optional - uncomment if you want to ignore)
+# *.json
+# data/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
